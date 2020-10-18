@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+            color: white;
+            text-align: center;
+            background: #343840;
+            border-radius: 10px;
+        }
+
+        body {
+            background-image: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+            background-color: #cccccc;
+        }
+
+        text {
+            color: white;
+        }
+    </style>
+
+    <title>Docker, Linux, and Containerization</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<center>
+    <div class="container">
+        <h1>Docker, Linux, and Containerization </h1>
+        <a href="index.html">
+            <button type="button" class="btn btn-dark">Home</button>
+        </a>
+        <a href="Virtualization.html">
+            <button type="button" class="btn btn-dark">Virtualization</button>
+        </a>
+        <a href="Containerization.html">
+            <button type="button" class="btn btn-dark">Containerization</button>
+        </a>
+        <a href="VirtualizationvsContainerization.html">
+            <button type="button" class="btn btn-dark">Virtualization vs Containerization</button>
+        </a>
+        <a href="DockerWebserverTutorial.html">
+            <button type="button" class="btn btn-danger">Docker Webserver Tutorial</button>
+        </a>
+        <a href="LinuxCommands&DockerContainer.html">
+            <button type="button" class="btn btn-dark">Linux Commands & Docker Container</button>
+        </a>
+        <a href="DockerPycharm.html">
+            <button type="button" class="btn btn-dark">Docker & Pycharm</button>
+        </a>
+        <a href="team.html">
+            <button type="button" class="btn btn-dark">Team</button>
+        </a>
+    </div>
+</center>
+
+<br>
+<br>
+<center>
+    <div class="card text-white bg-dark mb-3 w-75 text-center ">
+        <div class="card-header">
+            <h5 class="card-title">Docker Webserver Tutorial</h5>
+        </div>
+        <div class="card-body">
+            <h5>We will be following the steps from the link below to get Docker setup with a Flask webserver!</h5><br>
+            <p class="card-text">Prereqs: Make sure you have installed both Docker Engine and Docker Compose</p>
+            <p class="card-text">Step 1: Make a directory on your local machine for this project.</p>
+            <p class="card-text">Step 2: Create a file called "app.py" and copy the given Python code from the link below in this step.</p>
+            <p class="card-text">Step 3: Create a file called "requirements.txt" and copy and paste the given code from the step on the webpage. This contains all the needed Python libraries that will be needed to run the program.</p>
+            <p class="card-text">Step 4: Create a file called "Dockerfile" with no extension and copy the code from the site.</p>
+            <p class="card-text">Step 5: Create a file called "docker-compose.yml" and copy the code from the site.</p>
+            <p class="card-text">Step 6: Start up your application with the command called "docker-compose up".</p>
+            <p class="card-text">Step 7: Go to "http://localhost:5000/" in your browser to see your live app running! The container as executed this flask file which is a webserver that on the index page in localhost on this port, displays the method called hello in the Python code. This flask server can also be used to render other webpages that you develop locally and can be displayed on this locally hosted server.</p>
+        </div>
+    </div>
+
+
+    <div class="card text-white bg-dark mb-3 w-75 text-center ">
+        <div class="card-header">
+            <h5 class="card-title">Resources</h5>
+        </div>
+        <div class="card-body">
+            <a class="text" href="https://docs.docker.com/compose/gettingstarted/">Getting Started with Docker Compose</a><br>
+        </div>
+    </div>
+
+
+</center>
+
+
+</body>
+</html>
