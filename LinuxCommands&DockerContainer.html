@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+            color: white;
+            text-align: center;
+            background: #343840;
+            border-radius: 10px;
+        }
+
+        body {
+            background-image: url("https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif");
+            background-color: #cccccc;
+        }
+
+        text {
+            color: white;
+        }
+    </style>
+
+    <title>Docker, Linux, and Containerization</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<center>
+    <div class="container">
+        <h1>Docker, Linux, and Containerization </h1>
+        <a href="index.html">
+            <button type="button" class="btn btn-dark">Home</button>
+        </a>
+        <a href="Virtualization.html">
+            <button type="button" class="btn btn-dark">Virtualization</button>
+        </a>
+        <a href="Containerization.html">
+            <button type="button" class="btn btn-dark">Containerization</button>
+        </a>
+        <a href="VirtualizationvsContainerization.html">
+            <button type="button" class="btn btn-dark">Virtualization vs Containerization</button>
+        </a>
+        <a href="DockerWebserverTutorial.html">
+            <button type="button" class="btn btn-dark">Docker Webserver Tutorial</button>
+        </a>
+        <a href="LinuxCommands&DockerContainer.html">
+            <button type="button" class="btn btn-danger">Linux Commands & Docker Container</button>
+        </a>
+        <a href="DockerPycharm.html">
+            <button type="button" class="btn btn-dark">Docker & Pycharm</button>
+        </a>
+        <a href="team.html">
+            <button type="button" class="btn btn-dark">Team</button>
+        </a>
+    </div>
+</center>
+
+<br>
+<br>
+<center>
+    <div class="card text-white bg-dark mb-3 w-75 text-center ">
+        <div class="card-header">
+            <h5 class="card-title">Linux Commands & How to Login to a Docker Container</h5>
+        </div>
+        <div class="card-body">
+            <h5>Run your own Docker Image and Login to your Docker Container:</h5><br>
+            <p class="card-text">Follow along with the steps from the build and run your own image webpage below.</p>
+            <p class="card-text">Step 1:  Clone the given git repo with "git clone https://github.com/dockersamples/node-bulletin-board" then go into the directory with "cd node-bulletin-board/bulletin-board-app"</p>
+            <p class="card-text">Step 2: Build and test the image with "docker build --tag bulletinboard:1.0 ."</p>
+            <p class="card-text">Step 3: Build and test the image with "docker build --tag bulletinboard:1.0 ."</p>
+            <p class="card-text">Step 4: Run this command to start a container based off the pulled image: "docker run --publish 8000:8080 --detach --name bb bulletinboard:1.0"</p>
+            <p class="card-text">Step 5: You can now visit the running containerized application on localhost:8000</p>
+            <br>
+            <h5>Here are some basic Linux Commands to help you through this process:</h5><br>
+            <p class="card-text">mkdir - makes a new directory with a name you pass in within the current working directory you are in.</p>
+            <p class="card-text">cd - allows you to change directory with the name of the chosen directory you pass in.</p>
+            <p class="card-text">touch - touch allows you to create a new file with a specified file type with the given paramater you pass in.</p>
+            <p class="card-text">vim - allows you to edit a filename you pass in on the flow within the terminal.</p>
+            <p class="card-text">ls - lists all the files and directories within the current directory you are in.</p>
+            <p class="card-text">rm - allows you to remove files and directories</p>
+            <p class="card-text">git - utilize git commands to clone, pull, push, and interact with remote repositories.</p>
+            <p class="card-text">You can follow along with more commands with the linked cheatsheet below!</p>
+
+        </div>
+    </div>
+
+
+    <div class="card text-white bg-dark mb-3 w-75 text-center ">
+        <div class="card-header">
+            <h5 class="card-title">Resources</h5>
+        </div>
+        <div class="card-body">
+            <a class="text" href="https://docs.docker.com/get-started/part2/">Build and Run Your Image</a><br>
+            <a class="text" href="https://phoenixnap.com/kb/linux-commands-cheat-sheet">Linux Command CheatSheet</a><br>
+        </div>
+    </div>
+
+
+</center>
+
+
+</body>
+</html>
